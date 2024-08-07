@@ -9,7 +9,7 @@ function About() {
         'Node.js',
         'Express.js',
         'MongoDB',
-        'UI/UX Design',
+        'C#',
         'Figma',
     ]
   return (
