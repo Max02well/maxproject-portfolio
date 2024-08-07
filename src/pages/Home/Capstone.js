@@ -7,7 +7,7 @@ function Capstone() {
     const [selectionItemIndex, setSelectionItemIndex] = React.useState(0)
     return (
       <div>
-          <SectionTitle title={'Capstone Project'} />
+          <SectionTitle title={'Capstone Project 4.2'} />
           <div className='flex py-10 gap-20 sm:flex-col'>
               <div className='sm:flex-row sm:overflow-scroll sm:w-full flex flex-col gap-7 w-1/3 border-l-2 border-teal-200'>
               {capstone.map((capstone,index)=>(
