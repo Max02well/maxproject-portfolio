@@ -11,7 +11,7 @@ function Contact() {
   return (
     <div>
       <SectionTitle title='Say Hello' />
-      <div className='flex flex-col gap-5 items-center justify-between'>
+      <div className='flex flex-col gap-3 items-center justify-between'>
         <h1 className='text-2xl text-secondary-200 text-semibold'>Contact Details</h1>
         {Object.keys(user).map((key,index)=>(
             <h1 key={index} className='text-white text-xl'><span>{key}: {user[key]}</span></h1>
