@@ -4,8 +4,7 @@ import SectionTitle from '../../components/SectionTitle'
 function Contact() {
     const user = {
         Name: 'Maxwell Gogo',
-        Email: 'onyangogogo2002@gmail.com',
-        Gender:'Male',
+        Email: 'maxarmstronggogo@gmail.com',
         PhoneNo:'0703603949'
       
     }
