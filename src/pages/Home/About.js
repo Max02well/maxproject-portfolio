@@ -1,6 +1,9 @@
 import React from 'react'
 import SectionTitle from '../../components/SectionTitle'
 import logo from '../../assets/IMG_9313.jpg'
+import luo from '../../assets/Maxwell_GogoCV-LUO.pdf'
+import swahili from '../../assets/Maxwell_GogoCV-swahili.pdf'
+import english from '../../assets/Maxwell_GogoCV-English.pdf'
 
 function About() {
     const skills =[
@@ -35,7 +38,18 @@ function About() {
                 </div>
             ))}  
             </div>
+            <div className='flex gap-7 flex-row mt-12 items-center justify-center'>
+                <a href={english} download="Resume">
+                    <button className='text-white bg-blue-500 px-4 py-2 rounded'>Download CV(English)</button>
+                </a>
+                <a href={swahili} download="Resume">
+                    <button className='text-white bg-blue-500 px-4 py-2 rounded'>Download CV(Kiswahili)</button>
+                </a>
+                <a href={luo} download="Resume">
+                    <button className='text-white bg-blue-500 px-4 py-2 rounded'>Download CV(Luo)</button>
+                </a>
             </div>
+        </div>
       
     </div>
   )

@@ -5,7 +5,7 @@ function Contact() {
     const user = {
         Name: 'Maxwell Gogo',
         Email: 'maxarmstronggogo@gmail.com',
-        PhoneNo:'0703603949'
+        Call:'0703603949'
       
     }
   return (
