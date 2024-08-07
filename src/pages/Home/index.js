@@ -7,6 +7,7 @@ import Projects from './project'
 import Contact from './contact'
 import Footer from './footer'
 import SocialHandles from './social'
+import Capstone from './Capstone'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
      <About />
      <Experience />
      <Projects />
+     <Capstone />
      <Contact />
      <SocialHandles />
      <Footer />
