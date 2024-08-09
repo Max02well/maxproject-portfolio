@@ -6,7 +6,7 @@ import logo from './../../assets/serve1.jpg'
 function Projects() {
     const [selectionItemIndex, setSelectionItemIndex] = React.useState(0)
   return (
-    <div>
+    <div id='projects'>
         <SectionTitle title={'Projects'} />
         <div className='flex py-10 gap-20 sm:flex-col'>
             <div className='sm:flex-row sm:overflow-scroll sm:w-full flex flex-col gap-7 w-1/3 border-l-2 border-teal-200'>
@@ -19,11 +19,11 @@ function Projects() {
             ))}
             </div>
             <div className='flex items-center gap-10 justify-center sm:flex-col'>
-                <img src={logo} className='w-full h-4/4 object-cover'/>
+                <img src={logo} alt='my-image' className='w-full h-4/4 object-cover'/>
             {/*<img src={projects[selectionItemIndex].img} alt={logo} className='w-1/3 h-1/3' />*/}
 
             </div>
-        <div className='flex flex-col gap-5'>
+        <div  className='flex flex-col gap-5'>
         <h1 className='text-secondary-200 text-2xl font-semibold'>{projects[selectionItemIndex].title}</h1>
         <h1 className='text-white text-xl'>{projects[selectionItemIndex].desc}</h1>
         <p className='text-white text-xl'>{projects[selectionItemIndex].technologies}</p>
