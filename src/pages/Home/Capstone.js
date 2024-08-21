@@ -5,6 +5,7 @@ import luo from '../../assets/Maxwell_GogoCV-LUO.pdf';
 import swahili from '../../assets/Maxwell_GogoCV-swahili.pdf';
 import english from '../../assets/Maxwell_GogoCV-English.pdf';
 import autoBio from '../../assets/AutoBio.pdf';
+import essay from '../../assets/DEFORESTATION IN AFRICA.pdf';
 
 function Capstone() {
   const [selectionItemIndex, setSelectionItemIndex] = useState(0);
@@ -38,15 +39,25 @@ function Capstone() {
           ))}
         </div>
         <div className='flex flex-col gap-5'>
+          <h1 className='text-white text-3xl font-bold'>ABSTRACT</h1>
           <h1 className='text-white text-2xl font-semibold'>
             {capstone[selectionItemIndex].title}
           </h1>
           <h1 className='text-white text-xl'>
             {capstone[selectionItemIndex].lang}
           </h1>
+          <h1 className='font-normal text-2xl'>English</h1>
           <p className='text-white text-xl'>
             {capstone[selectionItemIndex].desc}
           </p>
+          <h1 className='text-2xl font-normal'>Kiswahili</h1>
+          <p className='text-white text-xl'>
+            {capstone[selectionItemIndex].desc1}
+            </p>
+            <h1 className='text-2xl font-medium'>Luo</h1>
+          <p className='text-white text-xl'>
+            {capstone[selectionItemIndex].desc2}
+            </p>
         </div>
       </div>
       <div className='flex gap-7 flex-wrap mt-12 items-center justify-center'>
@@ -55,6 +66,12 @@ function Capstone() {
           className='text-white bg-blue-500 px-4 py-2 rounded'
         >
           View Autobiography (English)
+        </button>
+        <button
+          onClick={() => handleViewPdf(essay)}
+          className='text-white bg-blue-500 px-4 py-2 rounded'
+        >
+          View Photographic Essay
         </button>
         <button
           onClick={() => handleViewPdf(english)}
