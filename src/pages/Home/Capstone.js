@@ -6,6 +6,7 @@ import swahili from '../../assets/Maxwell_GogoCV-swahili.pdf';
 import english from '../../assets/Maxwell_GogoCV-English.pdf';
 import autoBio from '../../assets/AutoBio.pdf';
 import essay from '../../assets/DEFORESTATION IN AFRICA.pdf';
+import video from '../../assets/IOT.mp4'
 
 function Capstone() {
   const [selectionItemIndex, setSelectionItemIndex] = useState(0);
@@ -39,6 +40,11 @@ function Capstone() {
           ))}
         </div>
         <div className='flex flex-col gap-5'>
+        <video width="600" controls>
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
           <h1 className='text-white text-3xl font-bold'>ABSTRACT</h1>
           <h1 className='text-white text-2xl font-semibold'>
             {capstone[selectionItemIndex].title}
