@@ -21,7 +21,7 @@ export const projects=[
     id:3,
     title:'MERN Portfolio',
     desc:'The MERN Stack Portfolio Application is a dynamic, full-stack web application designed to showcase a my projects, skills, and professional information. Built using the MERN stack, this application provides a modern, responsive, and easily customizable platform for developers to present their work and capabilities to potential employers or clients',
-    img:'https://www.pexels.com/photo/blue-mercedes-benz-car-parked-on-the-street-11500862/',
+    img:'https://www.pexels.com/photo/white-and-black-laptop-computer-on-brown-wooden-table-1181675/',
     link:'https://www.google.com'
   }
   

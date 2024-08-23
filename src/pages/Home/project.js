@@ -1,7 +1,7 @@
 import React from 'react'
 import SectionTitle from '../../components/SectionTitle'
 import { projects } from '../../resources/Projects'
-import logo from './../../assets/serve1.jpg'
+
 
 function Projects() {
     const [selectionItemIndex, setSelectionItemIndex] = React.useState(0)
@@ -18,11 +18,7 @@ function Projects() {
                 </div>
             ))}
             </div>
-            <div className='flex items-center gap-10 justify-center sm:flex-col'>
-                <img src={logo} alt='my-image' className='w-full h-4/4 object-cover'/>
-            {/*<img src={projects[selectionItemIndex].img} alt={logo} className='w-1/3 h-1/3' />*/}
-
-            </div>
+           
         <div  className='flex flex-col gap-5'>
         <h1 className='text-secondary-200 text-2xl font-semibold'>{projects[selectionItemIndex].title}</h1>
         <h1 className='text-white text-xl'>{projects[selectionItemIndex].desc}</h1>
