@@ -20,9 +20,10 @@ function SocialHandles() {
       <a href='https://www.instagram.com/gogo_maxwell22/'>
       <i class="ri-instagram-fill text-white text-xl"></i>
       </a>
-      <a href='https://www.facebook.com/MaxwellGogo'>
+      <a href='https://www.facebook.com/armstrong.martial.90'>
       <i class="ri-facebook-fill text-white text-xl"></i>
       </a>
+      
       </div>
       <div className='w-[1px] h-52 bg-[#73caa9] sm:hidden'></div>
       </div>
