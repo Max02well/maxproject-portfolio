@@ -1,6 +1,6 @@
 export const capstone = [
     {
-        title: 'INNOVATION IN AFRICA',
+        title: 'INNOVATION IN IT',
         videoId: 'wPE2I0WE1hU',
         lang: 'IOT',
         ppt:require('./../assets/IOT.pptx'),
