@@ -7,6 +7,7 @@ import Projects from './project'
 import Contact from './contact'
 import Footer from './footer'
 import SocialHandles from './social'
+import Experience from './Experience'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
      <About />
      <Education />
      <Projects />
+     <Experience />
      <Contact />
      <SocialHandles />
      <Footer />
