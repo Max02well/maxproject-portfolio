@@ -2,7 +2,7 @@ import React from 'react'
 import SectionTitle from '../../components/SectionTitle'
 import { schools } from '../../resources/School'
 
-function Experience() {
+function Education() {
     const [selectionItemIndex, setSelectionItemIndex] = React.useState(0)
   return (
     <div>
@@ -30,4 +30,4 @@ function Experience() {
   )
 }
 
-export default Experience
+export default Education

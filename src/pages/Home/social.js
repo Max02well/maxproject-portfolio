@@ -17,7 +17,7 @@ function SocialHandles() {
       <a href='https://x.com/gogo1_onyango'>
       <i class="ri-twitter-x-fill text-white text-xl"></i>
       </a>
-      <a href='https://www.instagram.com/gogo_maxwell22/'>
+      <a href='https://www.instagram.com/gogo.maxwell22/'>
       <i class="ri-instagram-fill text-white text-xl"></i>
       </a>
       <a href='https://www.facebook.com/armstrong.martial.90'>

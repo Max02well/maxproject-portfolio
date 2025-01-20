@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionTitle from '../../components/SectionTitle'
-import logo from '../../assets/IMG_9313.jpg'
+import logo from '../../assets/mygrad.JPG'
+
 
 
 function About() {
@@ -9,6 +10,10 @@ function About() {
         'React Native',
         'React',
         'Node.js',
+        'Docker',
+        'Kubernetes',
+        'Git',
+        'Python',
         'Express.js',
         'MongoDB',
         'C#',
@@ -21,13 +26,13 @@ function About() {
         <div>
             <SectionTitle title={'About Me'} />
             <div className='flex w-full gap-10 items-center sm:flex-col'>
-                <div className='w-1/2 h-[50vh] sm:w-full'>
-                    <img src={logo} alt='about' className='w-full h-full object-contain rounded-3xl' loading="lazy" />
+                <div className='w-1/2 h-[70vh] sm:w-full'>
+                    <img src={logo} alt='about' className='w-[100vh] h-[70vh] object-contain rounded-3xl' loading="lazy" />
                 </div>
                 <div className='w-1/2 flex flex-col gap-5 sm:w-full'>
                     <h1 className='text-white text-4xl font-semibold'>Who am I?</h1>
-                    <p className='text-white text-xl'>Hello, My name is Maxwell Gogo. I am a fourth year student at Dedan Kimathi University of Technology, Nyeri-Kenya. I am pursuing Bachelor of Science in Information Technology and currently am in my last semester.</p>
-                    <p className='text-secondary-100 text-xl'>I am passionate about mobile development with React Native and as well UI/UX design which puts the user of an app as the center of every software development that ensures they have an interesting experience with the app.</p>
+                    <p className='text-white text-xl'>Hello, My name is Maxwell Gogo. I am a software developer and an IT graduate of Dedan Kimathi University of Technology, Nyeri-Kenya.</p>
+                    <p className='text-secondary-100 text-sm'>I am passionate about System support and monitoring, proficient in DevOps tools like Docker,Kubernetes and GitHub.I also have adequate knowledge in mobile app development with React Native,programming with Python nad JavaScript and UI/UX Design which ensures users have a responsive and intuitive interfaces for their apps.</p>
                 </div>
             </div>
             <div className='py-5 mt-5'>

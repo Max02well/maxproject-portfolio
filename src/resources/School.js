@@ -3,8 +3,8 @@ export const schools = [
         name: 'Dedan Kimathi University of Technology',
         location: 'Nyeri, Kenya',
         degree: 'BSc. Information Technology',
-        date: '2021-Present',
-        desc: 'I am currently pursuing my undergraduate degree in Information Technology at Dedan Kimathi University of Technology. I am in my final year of study and I am passionate about UI/UX design,mobile app development.'
+        date: '2021-2024',
+        desc: 'I did my four year bachelors degree in IT at Dedan Kimathi University of Technology and graduated with a Second class Upper Division Honors on December 6th,2024.'
      },
      {
         name: 'Starehe Boys Center and School',
