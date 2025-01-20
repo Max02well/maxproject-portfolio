@@ -8,10 +8,10 @@ function Footer() {
         </div>
         <div className='flex items-center justify-center flex-col mt-7'>
             <h1 className='text-white'>
-              &copy;{currentYear} Developed By
+              &copy; {currentYear} 
             </h1>
             <h1 className='text-white'>
-                <span className='text-white'>Maxwell Gogo</span>
+                <span className='text-white'>Developed by Maxwell Gogo</span>
             </h1>
 
         </div>

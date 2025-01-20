@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="60" fill="#2D3748" />
+  
+  <!-- Tech Circuit Lines -->
+  <path d="M 160 100 L 180 100" stroke="#4299E1" stroke-width="3"/>
+  <path d="M 190 100 L 210 100" stroke="#4299E1" stroke-width="3"/>
+  <path d="M 220 100 L 240 100" stroke="#4299E1" stroke-width="3"/>
+  
+  <!-- Letter M -->
+  <path d="M 70 70 L 85 120 L 100 70 L 115 120 L 130 70" 
+        fill="none" 
+        stroke="#4299E1" 
+        stroke-width="8" 
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- G for Gogo - Stylized as a Code Tag -->
+  <path d="M 280 85 A 15 15 0 1 0 280 115 L 300 115" 
+        fill="none" 
+        stroke="#2D3748" 
+        stroke-width="6" 
+        stroke-linecap="round"/>
+  
+  <!-- Brand Name -->
+  <text x="200" y="160" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        fill="#2D3748" 
+        text-anchor="middle" 
+        font-weight="bold">
+    MAXWELL
+  </text>
+  
+  <!-- Developer Title -->
+  <text x="200" y="180" 
+        font-family="Arial, sans-serif" 
+        font-size="14" 
+        fill="#4299E1" 
+        text-anchor="middle">
+    SOFTWARE DEVELOPER
+  </text>
+</svg>

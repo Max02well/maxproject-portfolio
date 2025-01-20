@@ -1,15 +1,15 @@
 
 export const projects=[
   {
-    technologies:[],
+    technologies:['Docker,Kubernetes,GitHub Actions'],
     id:1,
-    title:'Car Recommendation App',
-    desc:'The Car Recommendation Application is an intelligent, user-friendly platform designed to help consumers find the perfect vehicle based on their specific needs, preferences, and budget. Utilizing advanced algorithms and a comprehensive database of car models, this application simplifies the often overwhelming process of choosing a new car.',
-    img:'https://www.pexels.com/photo/blue-bmw-sedan-near-green-lawn-grass-170811/',
+    title:'Container Orchestration Project',
+    desc:'Developed a container orchestration project focused on designing and implementing a microservices architecture using Docker. Managed multi-container applications with Docker Compose and deployed scalable solutions on Kubernetes clusters. Automated deployment workflows with GitHub Actions to ensure seamless integration and delivery. Leveraged Docker and Kubernetes to optimize application performance and scalability.',
+    img:'https://www.pexels.com/photo/white-and-black-laptop-computer-on-brown-wooden-table-1181675/',
     link:'https://www.google.com'
   },
   {
-    technologies:['ReactNative,MongoDB,Express,Node.js'],
+    technologies:['ReactNative,MongoDB,Express,Node.js,DarajaAPI'],
     id:2,
     title:'Ngarisha  App',
     desc:'This project is a car detailing app that allows users to book car detailing services. The app is built using ReactNative, Node.js, Express, and MongoDB. The app allows users to sign up, log in, book services, and pay via mpesa. The app also has an admin panel that allows the admin to view all bookings and mark them as completed.',
@@ -17,10 +17,10 @@ export const projects=[
     link:'https://www.google.com'
   },
   {
-    technologies:[],
+    technologies:['Laravel,MySQL,API'],
     id:3,
-    title:'MERN Portfolio',
-    desc:'The MERN Stack Portfolio Application is a dynamic, full-stack web application designed to showcase a my projects, skills, and professional information. Built using the MERN stack, this application provides a modern, responsive, and easily customizable platform for developers to present their work and capabilities to potential employers or clients',
+    title:'Natures Remedy Application',
+    desc:'Developed a web application that provides users with information on natural remedies for common ailments. The app is built using Laravel and leverages an external API to fetch data on natural remedies. Users can search for remedies based on their symptoms and view detailed information on each remedy. The app also allows users to save their favorite remedies for future reference.It also has an admin panel that allows the admin to add,edit and delete remedies from MySQL database.',
     img:'https://www.pexels.com/photo/white-and-black-laptop-computer-on-brown-wooden-table-1181675/',
     link:'https://www.google.com'
   }
