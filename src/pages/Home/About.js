@@ -32,7 +32,7 @@ function About() {
                 <div className='w-1/2 flex flex-col gap-5 sm:w-full'>
                     <h1 className='text-white text-4xl font-semibold'>Who am I?</h1>
                     <p className='text-white text-xl'>I am a software developer and an IT graduate of Dedan Kimathi University of Technology, Nyeri-Kenya.</p>
-                    <p className='text-secondary-100 text-sm'>I am passionate about System support and monitoring, proficient in DevOps tools like Docker,Kubernetes and GitHub.I also have adequate knowledge in mobile app development with React Native,programming with Python and JavaScript and UI/UX Design which ensures users have a responsive and intuitive interfaces for their apps.</p>
+                    <p className='text-secondary-100 text-lg'>I am passionate about System support and monitoring, proficient in DevOps tools like Docker,Kubernetes and GitHub.I also have adequate knowledge in mobile app development with React Native,programming with Python and JavaScript and UI/UX Design which ensures users have a responsive and intuitive interfaces for their apps.</p>
                 </div>
             </div>
             <div className='py-5 mt-5'>
