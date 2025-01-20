@@ -22,7 +22,7 @@ function Projects() {
         <div  className='flex flex-col gap-5'>
         <h1 className='text-secondary-200 text-2xl font-semibold'>{projects[selectionItemIndex].title}</h1>
         <h1 className='text-white text-xl'>{projects[selectionItemIndex].desc}</h1>
-        <p className='text-white text-xl'>{projects[selectionItemIndex].technologies}</p>
+       <p className='text-white text-xl'>Technologies Used:{projects[selectionItemIndex].technologies}</p>
         </div>
         
         </div>
