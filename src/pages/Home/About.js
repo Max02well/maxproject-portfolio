@@ -31,7 +31,7 @@ function About() {
             <SectionTitle title={'About Me'} />
             <div className='flex w-full gap-10 items-center sm:flex-col'>
                 <div className='w-1/2 justify-center h-[70vh] sm:w-full'>
-                    <img src={logo} alt='my_image' className='w-full h-full max-w-[350px] max-h-[500px] sm:ml-4 ml-20 object-cover rounded-3xl  max-w-md-[200px] transition-transform duration-300 ease-in-out transform hover:scale-105 shadow-lg' loading="lazy" />
+                    <img src={logo} alt='my_image' className='w-full h-full max-w-[350px] max-h-[500px] sm:ml-0 ml-20 object-cover rounded-3xl  max-w-md-[200px] transition-transform duration-300 ease-in-out transform hover:scale-105 shadow-lg' loading="lazy" />
                 </div>
                 <div className='w-1/2 flex flex-col gap-5 sm:w-full'>
                     <h1 className='text-white text-4xl font-semibold'>Who am I?</h1>
