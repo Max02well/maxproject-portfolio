@@ -13,11 +13,15 @@ function About() {
         'Docker',
         'Kubernetes',
         'Git',
+        'Terraform',
         'Python',
         'Express.js',
         'MongoDB',
+        'MySQL',
+        'Tailwind CSS',
         'C#',
         'Figma',
+        
     ]
 
     
@@ -37,7 +41,7 @@ function About() {
             </div>
             <div className='py-5 mt-5'>
                 <h1 className='text-green-300 text-xl'>These are the technologies I've been working with recently:</h1>
-                <div className='flex flex-wrap gap-10 mt-5 group'>
+                <div className='flex flex-wrap gap-10 mt-5'>
                     {skills.map((skill, index) => (
                          <div className="bg-gray-500 px-4 py-2 rounded-lg hover:bg-green-400 transition-colors duration-300 ease-in-out transform hover:scale-105 shadow-2xl">                       
                             <h1 className='text-slate-200 text-base hover:text-white font-medium'>{skill}</h1>
