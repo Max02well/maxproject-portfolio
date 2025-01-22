@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionTitle from '../../components/SectionTitle'
-import logo from '../../assets/mygrad.JPG'
+import logo from '../../assets/gradpic2.JPG'
 
 
 
@@ -30,8 +30,8 @@ function About() {
         <div>
             <SectionTitle title={'About Me'} />
             <div className='flex w-full gap-10 items-center sm:flex-col'>
-                <div className='w-1/2 h-[70vh] sm:w-full'>
-                    <img src={logo} alt='about' className='w-[100vh] h-[70vh] object-contain rounded-3xl' loading="lazy" />
+                <div className='w-1/2 justify-center h-[70vh] sm:w-full'>
+                    <img src={logo} alt='my_image' className='w-full h-full max-w-[350px] max-h-[500px] ml-20 object-cover rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-105 shadow-lg' loading="lazy" />
                 </div>
                 <div className='w-1/2 flex flex-col gap-5 sm:w-full'>
                     <h1 className='text-white text-4xl font-semibold'>Who am I?</h1>
@@ -43,7 +43,7 @@ function About() {
                 <h1 className='text-green-300 text-xl'>These are the technologies I've been working with recently:</h1>
                 <div className='flex flex-wrap gap-10 mt-5'>
                     {skills.map((skill, index) => (
-                         <div className="bg-gray-500 px-4 py-2 rounded-lg hover:bg-green-400 transition-colors duration-300 ease-in-out transform hover:scale-105 shadow-2xl">                       
+                         <div key={index} className="bg-gray-500 backdrop-blur-xl px-4 py-2 rounded-lg hover:bg-green-400 transition-colors duration-300 ease-in-out transform hover:scale-105 shadow-2xl">                       
                             <h1 className='text-slate-200 text-base hover:text-white font-medium'>{skill}</h1>
                         </div>
                     ))}
